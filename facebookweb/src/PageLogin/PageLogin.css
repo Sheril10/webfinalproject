@@ -1,0 +1,118 @@
+body{
+    margin-left: 4%;
+    font: 1.6 helvetica;
+    box-sizing: border-box;
+    background-color: #F0F2F5;
+}
+.Login{
+    display:flex;
+    justify-content:center;
+    width:95%;
+    height:30rem;
+    flex-wrap:wrap;
+    align-items: center;
+    border-radius: 2rem;
+}
+.Logo{
+    color:#1877F2;
+    font-size:4rem;
+    font-weight:790;
+}
+.Title{
+    font-size:1.8rem;
+    color:black;
+    font-weight: 400;
+}
+.Logininfo{
+    margin-left:5%;
+    margin-top: 5%;
+    border-radius: .7rem;
+    border:rgb(219, 215, 215) .05rem solid;
+    padding:1rem;
+    background-color: white;
+    width:23rem;
+    height:19rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05), 0 6px 6px 0 rgba(0, 0, 0, 0.05);
+
+}
+input[type = email], input[type = password]{
+    margin:6px 0;
+    padding: 14px 14px;
+    width: 90%;
+    border-radius: .5rem;
+    border-style:solid;
+    border-width: 0.01cm;
+    border-color: rgb(218, 217, 217);
+    
+}
+::placeholder{
+
+    box-sizing:border-box;
+    color: darkgrey;
+    font-size:large;
+
+}
+
+.button1{
+    width:94%;
+    justify-content: center;
+    color: white;
+    margin: 8px 15px;
+    background-color: #1877F2;
+    border-radius: .5rem;
+    border: none;
+    display: flex;
+    box-sizing: border-box;
+    padding: 15px 32px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.forgetpass a{
+    justify-content: center;
+    color: #1877F2;
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+}
+
+.line{
+    border-bottom: .05rem rgb(219, 218, 218) solid;
+}
+.button2{
+    width:60% ;
+    justify-content: center;
+    align-items:center;
+    color: #F0F2F5;
+    margin: 4px 2px;
+    background-color: #42B72A;
+    border-radius: .5rem;
+    border: none;
+    display: flex;
+    box-sizing: border-box;
+    padding:15px 5px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor:pointer;
+    font-weight: bold;
+    margin-left: 20%;
+}
+.Createpg a{
+    font-size: 1rem;
+    margin-top: 4%;
+    color: black;
+    display: inline-block;
+    justify-content: center;
+    justify-items: center;
+    text-decoration: none;
+}
+.Createpg{
+    font-size: 1rem;
+    padding-left: 5%;
+}
+.button1 a{
+    text-decoration: none;
+    color: white;
+}
+.button1 a:hover{
+    color: black;
+}
